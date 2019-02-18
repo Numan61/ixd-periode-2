@@ -83,6 +83,19 @@ img{
     grid-area: main3;
 }
 
+#chart_div{
+    min-height: 150px;
+
+}
+
+
+  #donutchart{
+    min-height: 250px;
+        margin-left: auto;
+  margin-right: auto;
+}
+    
+
 @media only screen and (min-width: 768px){
     
     
@@ -145,6 +158,12 @@ img{
     height:400px;
     text-align: center;
     grid-area: main3;
+}
+    
+    #donutchart{
+    min-height: 300px;
+        margin-left: auto;
+  margin-right: auto;
 }
     
 .footer{
