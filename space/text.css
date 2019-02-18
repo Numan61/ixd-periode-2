@@ -1,0 +1,199 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background-color: #7176FD;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr;
+    height:200px;
+    padding:35px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px 20px;
+    grid-template-areas: 
+        "header"
+        "main"
+        "main1" 
+        "main2"
+        "main3"
+        "footer"
+        
+}
+
+img{
+    width: auto;
+    height: 50%;
+    min-width: 300px;
+    margin-bottom: 200px;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.box1{
+    width: 100%;
+    height:auto;
+    grid-area: main;
+    background-color: white;
+      width: auto;
+    color:black;
+    text-align: center;
+    height:auto;
+    padding:inherit;
+    line-height: 40px;
+    height:auto;
+    
+}
+
+.box2{
+    background-color: white;
+     width: auto;
+    text-align: center;
+    height:auto;
+    padding:inherit;
+    line-height: 40px;
+    color:black;
+    height:auto;
+    grid-area: main1;
+}
+
+.box3{
+    background-color: white;
+     width: auto;
+    padding:inherit;
+    height:auto;
+    color: black;
+    text-align: center;
+    grid-area: main2;
+}
+
+.box4{
+    background-color: white;
+     width: auto;
+    padding:inherit;
+    height:auto;
+    color: black;
+    text-align: center;
+    grid-area: main3;
+}
+
+#chart_div{
+    min-height: 150px;
+
+}
+
+
+  #donutchart{
+    min-height: 250px;
+        margin-left: auto;
+  margin-right: auto;
+}
+    
+
+@media only screen and (min-width: 768px){
+    
+    
+}
+
+@media only screen and (min-width: 1366px){
+    
+    
+    .grid-container{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    height:400px;
+    padding:35px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px 20px;
+    grid-template-areas: 
+        "header header header header"
+        "main main main1 main1"
+        "main2 main2 main3 main3"
+        "footer footer footer footer"
+        
+}
+    
+    .box1{
+    width: 100%;
+    height:auto;
+    grid-area: main;
+      width: auto;
+    text-align: center;
+    height:auto;
+    padding:inherit;
+    line-height: 40px;
+    height:400px;
+    
+}
+
+.box2{
+     width: auto;
+    text-align: center;
+    height:auto;
+    padding:inherit;
+    line-height: 40px;
+    height:400px;
+    grid-area: main1;
+}
+
+.box3{
+
+     width: auto;
+    padding:inherit;
+    height:400px;
+    text-align: center;
+    grid-area: main2;
+    background-color: red;
+}
+
+.box4{
+     width: auto;
+    padding:inherit;
+    height:400px;
+    text-align: center;
+    grid-area: main3;
+    background-color: red;
+}
+    
+    #donutchart{
+    min-height: 300px;
+        margin-left: auto;
+  margin-right: auto;
+}
+    
+.footer{
+            width: auto;
+    padding:inherit;
+    height:auto;
+    text-align: center;
+    grid-area: footer;
+    }
+    
+}
+
+@media only screen and (min-width: 1920px){
+    
+     .grid-container{
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding:35px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px 20px;
+    grid-template-areas: 
+        "header header header header"
+        "main main main1 main1"
+        "main2 main2 main3 main3"
+        "footer footer footer footer"
+  
+    
+}
